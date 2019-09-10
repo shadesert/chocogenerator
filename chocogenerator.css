@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+body{
+    background-color:#c61727;
+    font-family:sans-serif;
+}
+
+h1,
+form,
+.flavourContainer{
+    text-align:center;
+}
+
+h1{
+    margin-top:120px;
+    font-size:50px;
+    color:#FFF;
+}
+
+.defaultBtn,
+input[type="submit"]{
+    font-size:28px;
+    font-weight:bold;
+    padding:20px;
+    color:#FFF;
+    cursor:pointer;
+    border:3px solid #FFF;
+    border-radius:20px;
+    margin-top:40px;
+    background-color:transparent;
+}
+
+.defaultBtn:hover,
+input[type="submit"]:hover{
+    color:#c61727;
+    background-color:#FFF;
+}
+
+.flavourContainer{
+    margin-top:80px;
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.flavour{
+    font-weight:normal;
+    font-family:'Pacifico';
+    padding:40px;
+    color:#FFF;
+    display:inline-block;   
+    box-shadow:0 0 20px rgba(0,0,0,0.15);
+    border-radius:5px;
+    margin-top:0;
+}
+
+p:empty,
+p:empty ~ .iconSpan{
+    display:none;
+}
+
+label, p{
+    color:#FFF;
+    font-size:18px;
+}
+
+.iconSpan{
+    position:absolute;
+    margin-top:53px;
+}
+
+.flavourContainer *{
+    font-size:40px;
+}
+
+.heart,
+.thumbs{
+    color:#FFF;
+    padding-left:20px;
+    cursor:pointer;
+}
+
+table .heart,
+table .thumbs{
+    padding-left:0;
+}
+
+.noclick{
+    cursor:default;
+}
+
+.linkContainer{
+    text-align:center;
+    margin-top:30px;
+}
+
+.linkContainer a{
+    color:#c61727;
+    font-size:18px;
+    font-weight:bold;
+    text-decoration:none;
+    padding:5px;
+    background-color:#fff;
+    transition:all-ease 3s;
+}
+
+.linkContainer li{
+    margin:20px;
+}
+
+.flavourRankings table{
+    color:#fff;
+    font-size:28px;
+    text-align:left;
+    margin-top:30px;
+    margin-left:auto;
+    margin-right:auto;
+    border-collapse:collapse;
+}
+
+.flavourRankings tr > *{
+    padding:10px 20px;
+}
+
+.flavourRankings th{
+    padding-bottom:15px;
+}
+
+.flavourRankings tr:nth-of-type(2) td{
+    padding-top:15px;
+}
+
+.flavourRankings tr:first-of-type{
+    border-bottom:1px solid #fff;
+}
+
+.flavourRankings tr > *:first-child{
+    text-align:center;
+}
+
+.lightup{
+    letter-spacing:1.5px;
+}
+
+ul{
+    list-style-type:none;
+    padding-left:0;
+}
+
+input[type="text"]{
+    font-size:28px;
+    border:none;
+    padding:10px;
+    color:#2513ad;
+    font-weight:bold;
+    text-align:center;
+}
+
+input[type="text"]:focus,
+input[type="text"]:active{
+    outline:0;
+}
